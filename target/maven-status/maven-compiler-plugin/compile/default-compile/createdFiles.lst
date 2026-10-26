@@ -1,4 +1,5 @@
 uk\gov\dwp\uc\pairtest\domain\TicketTypeRequest$Type.class
+App.class
 uk\gov\dwp\uc\pairtest\TicketServiceImpl.class
 thirdparty\seatbooking\SeatReservationServiceImpl.class
 uk\gov\dwp\uc\pairtest\validate\PurchaseValidator.class
@@ -8,6 +9,5 @@ thirdparty\seatbooking\SeatReservationService.class
 thirdparty\paymentgateway\TicketPaymentServiceImpl.class
 uk\gov\dwp\uc\pairtest\domain\TicketTypeRequest.class
 uk\gov\dwp\uc\pairtest\exception\InvalidPurchaseException.class
-app.class
 uk\gov\dwp\uc\pairtest\TicketService.class
 uk\gov\dwp\uc\pairtest\exception\AccountNotValidException.class

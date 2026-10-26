@@ -15,7 +15,7 @@ public class TicketCalculator {
                 + (childTickets * CHILD_PRICE);
     }
 
-    private int countTickets(TicketTypeRequest[] ticketTypes, TicketTypeRequest.Type type) {
+    public int countTickets(TicketTypeRequest[] ticketTypes, TicketTypeRequest.Type type) {
         int count = 0;
 
         for (TicketTypeRequest ticketTypeRequest : ticketTypes) {
