@@ -18,7 +18,7 @@ public class PurchaseValidator {
         int totalTickets = adultTickets + childTickets + infantTickets;
 
         validateTotalTickets(totalTickets);
-        adultRequirementValidation(adultTickets, childTickets, totalTickets);
+        adultRequirementValidation(adultTickets, childTickets, infantTickets);
     }
 
 
@@ -71,7 +71,7 @@ public class PurchaseValidator {
                 throw new InvalidPurchaseException("Ticket type cannot be null");
             }
 
-            if (request.getNoOfTickets() < 0){
+            if (request.getNoOfTickets() <= 0){
                 throw new InvalidPurchaseException("Number of tickets must be greater than 0");
             }
         }
