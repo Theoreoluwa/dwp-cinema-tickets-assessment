@@ -20,7 +20,7 @@ public class TicketCalculator {
 
         for (TicketTypeRequest ticketTypeRequest : ticketTypes) {
             if(ticketTypeRequest.getTicketType() == type) {
-                count =+ ticketTypeRequest.getNoOfTickets();
+                count += ticketTypeRequest.getNoOfTickets();
             }//end-if
         }//end-for
 
