@@ -2,9 +2,7 @@
 
 ## Overview
 
-This project is a Java implementation of a cinema ticket purchasing service developed as part of the Department for Work and Pensions (DWP) Senior Software Engineer coding assessment.
-
-The application validates ticket purchase requests, calculates payment and seat requirements, and delegates payment processing and seat reservation to the relevant services.
+This project is the implementation of a cinema ticket purchasing service. The application validates ticket purchase requests, calculates payment and seat requirements, and delegates payment processing and seat reservation to the relevant services.
 
 The solution focuses on clean code, separation of responsibilities, business rule validation, and automated unit testing.
 
